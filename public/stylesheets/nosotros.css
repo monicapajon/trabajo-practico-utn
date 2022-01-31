@@ -1,0 +1,59 @@
+@import './estudiopericial.css';
+/* inicio de seccion nosotros */
+
+.valores p {
+    font-size: 14px;
+}
+
+.personas {
+    overflow: hidden;
+}
+
+.persona {
+    width: 18%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    float: left;
+    margin-left: 2.5%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.persona img {
+    border-radius: 50%;
+    max-width: 70%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    /*sombra*/
+    margin: 8px 0 10px;
+}
+
+.persona h5, .persona h6 {
+    font-weight: bold;
+    color: #960505;
+    margin: 0;
+}
+
+.persona h5 {
+    font-size: 11px;
+}
+
+.persona h6 {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.persona p {
+    font-size: 9px;
+    line-height: 15px;
+    margin: 0 14px 10px;
+}
+
+.persona:first-child {
+    margin-left: 0;
+    /*pseudo-clases 
+      :hover
+      :first-child 
+      :last-child*/
+}
+
+/* fin de seccion nosotros */

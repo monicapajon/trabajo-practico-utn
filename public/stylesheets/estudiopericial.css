@@ -1,0 +1,142 @@
+/*font-family: 'Open Sans', sans-serif;*/
+
+p {
+  text-align: justify;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+header {
+  background-color: #eeae65;
+}
+
+header h1 {
+  color: white;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  margin-left: 10px;
+}
+
+nav {
+  background-color: #eb7742;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 24.5%;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+  display: block;
+  text-align: center;
+  /*background-color: red;*/
+}
+
+nav ul li a:hover {
+  background-color: #eeae65;
+}
+
+/* hover es una pseudoclase sirve para cambiar color boton */
+
+nav ul li a.activo {
+  background-color: #eeae65;
+}
+
+footer {
+  background-color: #ccc;
+  padding: 40px;
+  text-align: center;
+  clear: both;
+  margin-top: 30px;
+}
+
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header .holder {
+  display: flex;
+  align-items: center;
+}
+
+header .holder h1 {
+  display: flex;
+  flex-direction: column;
+}
+
+header .holder h1 span:last-of-type {
+  padding-top: 30px;
+}
+
+h2 {
+  color: #960505;
+  font-weight: 400;
+}
+
+.servicios, .testimonios {
+  box-sizing: border-box;
+}
+
+.columnas {
+  overflow: hidden;
+}
+
+.servicios {
+  /* background-color: yellow; */
+  width: 75%;
+  float: left;
+  padding-right: 10px;
+}
+
+.testimonios {
+  /* background-color: orange; */
+  width: 25%;
+  float: right;
+}
+
+.servicios p {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.testimonio {
+  background-color: #ccc;
+  padding: 18px;
+}
+
+.testimonio .cita {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+}
+
+.testimonio .autor {
+  font-size: 13px;
+  display: block;
+  text-align: center;
+  /* background-color: blueviolet; */
+  margin: 16px 0;
+  /*arriba - abajo 16px; 0 laterales */
+}
+
+/* fin seccion home */
+

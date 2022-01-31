@@ -1,0 +1,65 @@
+@import './estudiopericial.css';
+/* inicio contacto */
+
+.columna {
+    /* background-color: yellow; */
+    width: 50%;
+    box-sizing: border-box;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .columna.left {
+    border-right: 2px solid #960505;
+  }
+  
+  .formulario label {
+    width: 22%;
+    /* background-color: yellow; */
+    /* display: block; */
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .formulario input, .formulario textarea {
+    background-color: #ccc;
+    border-radius: 5px;
+    border: 1px solid #999;
+    width: 73%;
+    padding: 3px;
+    font-size: 14px;
+  }
+  
+  .formulario textarea {
+    resize: none;
+    height: 90px;
+  }
+  
+  .formulario input[type="submit"] {
+    background-color: #eeae65;
+    box-shadow: 0 0 10px #ccc;
+    width: auto;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  .columna.right {
+    padding-left: 10px;
+  }
+  
+  .columna.right ul {
+    font-size: 14px;
+  }
+  
+  .acciones {
+    /* background-color: yellow; */
+    text-align: center;
+  }
+  
+  /* fin de seccion contacto */
